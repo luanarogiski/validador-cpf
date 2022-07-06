@@ -1,0 +1,53 @@
+
+body {
+    text-align: center;
+    background-color: burlywood;
+    margin-bottom: 50px;
+    margin-top: 10%;
+}
+
+h1 {
+    margin-top: 30px;
+    color: #003768;
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+#form {
+    border: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+#verificar {
+    line-height: 30px;
+    width: 30%;
+    color: #003768;
+    font-weight: bold;
+    font-size: 12px;
+    background-color: lightcyan;
+    border: none;
+    border-radius: 2px;
+    padding-left: 15px;
+    cursor: pointer;
+
+}
+
+#sub {
+    line-height: 30px;
+    width: 10%;
+    font-weight: bold;
+    font-size: 12px;
+    color: #003768;
+    background-color: yellow;
+    border: none;
+    border-radius: 2px;
+}
+
+
+
+
+
+
+
+
