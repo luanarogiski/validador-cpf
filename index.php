@@ -1,5 +1,5 @@
 <?php
-    require_once 'validar.php';
+    require_once 'teste1.php';
 ?>
 
 
@@ -19,13 +19,13 @@
         <input type="submit" id="sub" value="Pesquisar">
     </form>
     <?php
-        if ($submeteuCpf) {
+  /*  if ($submeteuCpf) {
             if ($cpfValido) {
                 echo "CPF válido";
             } else {
                 echo "CPF inválido";
             }
-        }
+        }*/
     ?>
 
 
