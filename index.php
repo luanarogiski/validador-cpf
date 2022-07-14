@@ -1,5 +1,5 @@
 <?php
-    require_once 'teste1.php';
+    require_once 'validacao.php';
 ?>
 
 
@@ -18,16 +18,28 @@
         <input type="text" id="verificar" name="verificar" placeholder="Digite o CPF para Verificação"></input>
         <input type="submit" id="sub" value="Pesquisar">
     </form>
-    <?php
-  /*  if ($submeteuCpf) {
+    <div class="cpf">
+        <?php
+        if ($submeteuCpf) {
             if ($cpfValido) {
-                echo "CPF válido";
+                echo formatarCpf($cpfCompleto);
             } else {
-                echo "CPF inválido";
+                echo formatarCpf($numeroCpf);
             }
-        }*/
+        }
+        ?>
+    </div>
+    <div class="submeterCpf">
+    <?php
+    if ($submeteuCpf) {
+            if ($cpfValido) {
+                echo "<span style=\"color:#003768;\">CPF Válido</span>";
+            } else {
+                echo "<span style=\"color:rgb(226, 27, 27);\">CPF Inválido</span>";
+            }
+    }
     ?>
-
+    </div>
 
 </body>
 </html>
